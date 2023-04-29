@@ -1,0 +1,8 @@
+DROP TABLE  IF EXISTS member;
+CREATE TABLE member
+(
+    id       BIGINT(10) AUTO_INCREMENT PRIMARY KEY,
+    email    VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    nickname VARCHAR(255) NOT NULL
+);
